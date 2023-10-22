@@ -1,0 +1,41 @@
+name: Build
+
+on:
+  push:
+    branches-ignore:
+      - 'gh-pages'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build # Have to run processing first so the list.json exists to be included in the the deploy
+        run: |
+          npm ci --prefix processing 
+          node processing
+          npm ci --prefix site
+          npm run deploy --prefix site
+
+      - name: Generate App List # Have to run it again because the deploy wipes the file and folders out
+        run: |
+          npm ci --prefix processing
+          node processing
+
+      - name: Move to branch
+        if: github.ref != 'refs/heads/develop'
+        run: |
+          mv public ${{ github.head_ref || github.ref_name }}
+          mkdir public
+          mv ${{ github.head_ref || github.ref_name }} public
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          force: false
+          clean: false
