@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'Record Technologies',
+    description: 'An unofficial registry for Kasm workspaces.',
+    icon: 'https://doctorfree.github.io/kasm-registry/1.0/sp2.png',
+    listUrl: 'https://doctorfree.github.io/kasm-registry/1.0/',
+    contactUrl: 'https://github.com/doctorfree',
   },
   reactStrictMode: true,
   swcMinify: true,
