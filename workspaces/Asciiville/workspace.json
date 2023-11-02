@@ -1,0 +1,30 @@
+{
+  "friendly_name": "Asciiville",
+  "image_src": "https://asciiville.dev/assets/asciiville.png",
+  "description": "Asciiville provides tools and utilities to generate and view Ascii Art",
+  "docker_registry": "https://index.docker.io/v1/",
+  "name": "doctorwhen/kasm:asciiville",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": { "hostname": "kasm-asciiville" },
+  "exec_config": {
+     "first_launch":{
+       "user":"root",
+       "cmd":"bash -c 'apt-get update && apt-get install -y sudo && echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+     }
+  },
+  "categories": [
+    "Custom",
+    "Desktop",
+    "Development",
+    "Productivity"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ]
+}
