@@ -15,7 +15,7 @@ jobs:
 
       - name: Build # Have to run processing first so the list.json exists to be included in the the deploy
         run: |
-          npm ci --prefix processing 
+          npm ci --prefix processing
           npm ci --prefix site
           ./build_all_branches.sh
 
@@ -24,3 +24,4 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+          token: ${{ secrets.DEPLOY_TOKEN }}
