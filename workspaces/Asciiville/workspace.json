@@ -1,6 +1,6 @@
 {
   "friendly_name": "Asciiville",
-  "image_src": "https://asciiville.dev/assets/asciiville.png",
+  "image_src": "asciiville.png",
   "description": "Asciiville provides tools and utilities to generate and view Ascii Art",
   "docker_registry": "https://index.docker.io/v1/",
   "name": "doctorwhen/kasm:asciiville",
