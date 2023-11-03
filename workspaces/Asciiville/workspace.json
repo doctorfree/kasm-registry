@@ -3,6 +3,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "asciiville.png",
   "name": "doctorwhen/kasm:asciiville-deluxe",
+  "friendly_name": "Asciiville Deluxe",
   "run_config": {
     "hostname": "kasm-asciiville"
   },
@@ -17,17 +18,15 @@
     "Development",
     "Productivity"
   ],
-  "friendly_name": "Asciiville",
   "architecture": [
     "amd64"
   ],
   "compatibility": [
-    "1.13.x",
     "1.14.x"
   ],
   "cores": 2,
   "memory": 5536,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "uncompressed_size_mb": 10592
+  "uncompressed_size_mb": 9060
 }
