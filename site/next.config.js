@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Record Technologies',
     description: 'An unofficial registry for Kasm workspaces.',
     icon: 'https://doctorfree.github.io/kasm-registry/1.0/sp2.png',
-    listUrl: 'https://doctorfree.github.io/kasm-registry/1.0/',
+    listUrl: 'https://doctorfree.github.io/kasm-registry/',
     contactUrl: 'https://github.com/doctorfree',
   },
   reactStrictMode: true,
