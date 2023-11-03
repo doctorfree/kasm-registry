@@ -3,7 +3,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "asciiville.png",
   "name": "doctorwhen/kasm:asciiville-deluxe",
-  "friendly_name": "Asciiville Deluxe",
+  "friendly_name": "Asciiville",
   "run_config": {
     "hostname": "kasm-asciiville"
   },
