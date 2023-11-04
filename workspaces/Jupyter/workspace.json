@@ -3,7 +3,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "jupyter.png",
   "name": "doctorwhen/kasm:jupyter",
-  "friendly_name": "Neovim",
+  "friendly_name": "Jupyter",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
