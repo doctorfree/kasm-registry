@@ -2,7 +2,7 @@
   "description": "Neovim is a hyper-extensible text editor derived from Vim",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "neovim.png",
-  "name": "doctorwhen/kasm:neovim-deluxe",
+  "name": "doctorwhen/kasm:neovim",
   "friendly_name": "Neovim",
   "cores": 2,
   "memory": 5536,
@@ -26,5 +26,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 8360
+  "uncompressed_size_mb": 8390
 }
