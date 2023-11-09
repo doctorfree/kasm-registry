@@ -1,0 +1,30 @@
+{
+  "description": "Wing is a programming language for the cloud",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "wing.png",
+  "name": "doctorwhen/kasm:wing-jammy",
+  "friendly_name": "Wing (Jammy)",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": { "hostname": "kasm-wing" },
+  "exec_config": {
+     "first_launch": {
+       "user":"root",
+       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+     }
+  },
+  "categories": [
+    "Desktop",
+    "Development",
+    "Productivity"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 8810
+}
