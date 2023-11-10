@@ -5,10 +5,10 @@
   "name": "doctorwhen/kasm:wing-jammy",
   "friendly_name": "Wing",
   "cores": 2,
-  "memory": 2768,
+  "memory": 5536,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-wing" },
+  "run_config": { "hostname": "kasm-wing", "ports": { "3000/tcp": 3000 } },
   "exec_config": {
      "first_launch": {
        "user":"root",
@@ -16,8 +16,8 @@
      }
   },
   "categories": [
-    "Desktop",
     "Development",
+    "Desktop",
     "Productivity"
   ],
   "architecture": [
@@ -26,5 +26,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 7790
+  "uncompressed_size_mb": 8120
 }

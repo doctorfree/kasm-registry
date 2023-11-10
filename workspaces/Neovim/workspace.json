@@ -16,8 +16,8 @@
      }
   },
   "categories": [
-    "Desktop",
     "Development",
+    "Desktop",
     "Productivity"
   ],
   "architecture": [
@@ -26,5 +26,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 8010
+  "uncompressed_size_mb": 7950
 }
