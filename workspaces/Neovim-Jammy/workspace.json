@@ -2,8 +2,8 @@
   "description": "Neovim is a hyper-extensible text editor derived from Vim",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "neovim.png",
-  "name": "doctorwhen/kasm:neovim-deluxe",
-  "friendly_name": "Neovim (Focal)",
+  "name": "doctorwhen/kasm:neovim",
+  "friendly_name": "Neovim (Jammy)",
   "cores": 2,
   "memory": 5536,
   "gpu_count": 0,
@@ -26,5 +26,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 7950
+  "uncompressed_size_mb": 7800
 }
