@@ -1,14 +1,14 @@
 {
-  "description": "Customized Ubuntu 22.04 (Jammy) desktop with extras",
+  "description": "Customized Ubuntu 20.04 (Focal) desktop with extras",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "ubuntu.png",
-  "name": "doctorwhen/kasm:ubuntu-jammy",
-  "friendly_name": "Ubuntu Jammy",
+  "name": "doctorwhen/kasm:ubuntu-focal",
+  "friendly_name": "Ubuntu Focal",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-jammy" },
+  "run_config": { "hostname": "kasm-focal" },
   "exec_config": {
      "first_launch": {
        "user":"root",
@@ -25,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 7520
+  "uncompressed_size_mb": 7720
 }
