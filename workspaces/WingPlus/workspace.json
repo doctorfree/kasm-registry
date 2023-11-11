@@ -1,9 +1,9 @@
 {
-  "description": "Wing is a programming language for the cloud",
+  "description": "Wing is a programming language for the cloud, Neovim is a hyper-extensible text editor",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "wing.png",
-  "name": "doctorwhen/kasm:wing",
-  "friendly_name": "Wing",
+  "name": "doctorwhen/kasm:wing-neovim",
+  "friendly_name": "Wing + Neovim",
   "cores": 2,
   "memory": 5536,
   "gpu_count": 0,
@@ -26,5 +26,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 7830
+  "uncompressed_size_mb": 8110
 }
