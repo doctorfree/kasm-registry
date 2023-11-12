@@ -5,7 +5,7 @@
   "name": "doctorwhen/kasm:wing",
   "friendly_name": "Wing",
   "cores": 2,
-  "memory": 5536,
+  "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "run_config": { "hostname": "kasm-wing", "ports": { "3000/tcp": 3000 } },

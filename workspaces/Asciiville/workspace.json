@@ -2,7 +2,7 @@
   "description": "Asciiville provides tools and utilities to generate and view Ascii Art",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "asciiville.png",
-  "name": "doctorwhen/kasm:asciiville-deluxe",
+  "name": "doctorwhen/kasm:asciiville",
   "friendly_name": "Asciiville",
   "run_config": {
     "hostname": "kasm-asciiville"
@@ -15,7 +15,6 @@
   },
   "categories": [
     "Desktop",
-    "Development",
     "Productivity"
   ],
   "architecture": [
@@ -25,8 +24,8 @@
     "1.14.x"
   ],
   "cores": 2,
-  "memory": 5536,
+  "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "uncompressed_size_mb": 9060
+  "uncompressed_size_mb": 8230
 }
