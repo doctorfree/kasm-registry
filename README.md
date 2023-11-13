@@ -12,13 +12,12 @@
 
 ## Contents
 
-1. [Record Technologies Workspaces](#record-technologies-workspaces)
+- [Record Technologies Workspaces](#record-technologies-workspaces)
   - [Workspace features](#workspace-features)
   - [Workspace deployment](#workspace-deployment)
-1. [Repository template](#repository-template)
-1. [Schema](#schema)
-  - [New schema version](#new-schema-version)
-1. [Discovery](#discovery)
+- [Repository template](#repository-template)
+- [Schema](#schema)
+- [Discovery](#discovery)
 
 ## Record Technologies Workspaces
 
