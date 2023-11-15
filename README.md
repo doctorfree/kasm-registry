@@ -15,6 +15,7 @@
 - [Record Technologies Workspaces](#record-technologies-workspaces)
   - [Workspace features](#workspace-features)
   - [Workspace deployment](#workspace-deployment)
+  - [Docker deployment](#docker-deployment)
 - [Repository template](#repository-template)
 - [Schema](#schema)
 - [Discovery](#discovery)
@@ -95,6 +96,32 @@ Where the `/u/kasm_profiles/` folder has been created on the Kasm host. Note tha
 this folder can grow quite large depending on how many workspaces are configured
 to use it and how many users are active. I place this folder along with any
 volume mappings and the Docker library folders on a large second drive using XFS.
+
+### Docker deployment
+
+These images are designed for use as streaming containers in `Kasm`. However,
+they can be run using `docker`. For example, to run the `Wing` workspace:
+
+```bash
+# Pull the image from Docker Hub
+docker pull doctorwhen/kasm:wing
+```
+
+```bash
+myip=`ip addr show | awk '$1 == "inet" && $3 == "brd" { sub (/\/.*/,""); print $2 }' | head -1`
+
+printf "\n\nThe Wing container is now accessible via a browser : https://${myip}:6901"
+printf "\n\tUser : kasm_user"
+printf "\n\tPassword: password\n"
+
+docker run --rm  -it --shm-size=512m -p 3000:3000 -p 6901:6901 -e VNC_PW=password doctorwhen/kasm:wing
+```
+
+**NOTE:** Several of the Record Technologies Kasm workspaces perform extensive
+post-installation configuration. For this reason they are not well suited for
+use with `docker run ...` since each time they are run in this manner they will
+perform the time consuming initialization. The recommended use for these images
+is as Kasm Workspaces streamed containers with a persistent profile configured.
 
 ## Repository template
 
