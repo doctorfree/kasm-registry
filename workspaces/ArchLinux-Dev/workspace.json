@@ -1,0 +1,32 @@
+{
+  "description": "Customized ArchLinux image for development purposes",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "archlinux.png",
+  "name": "doctorwhen/kasm:archlinux-dev",
+  "friendly_name": "ArchLinux Dev",
+  "run_config": {
+    "hostname": "kasm-arch"
+  },
+  "exec_config": {
+     "first_launch": {
+       "user":"root",
+       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+     }
+  },
+  "categories": [
+    "Development",
+    "Desktop",
+    "Productivity"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.14.x"
+  ],
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "uncompressed_size_mb": 1060
+}
