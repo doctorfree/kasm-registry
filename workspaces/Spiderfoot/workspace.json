@@ -5,7 +5,7 @@
   "name": "doctorwhen/kasm:spiderfoot",
   "friendly_name": "SpiderFoot",
   "cores": 2,
-  "memory": 2768,
+  "memory": 5536,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "run_config": { "hostname": "kasm-spiderfoot", "ports": { "5001/tcp": 5001 } },
@@ -25,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 3330
+  "uncompressed_size_mb": 3340
 }
