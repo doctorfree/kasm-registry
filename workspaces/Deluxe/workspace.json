@@ -2,8 +2,8 @@
   "description": "Asciiville, Neovim, Spiderfoot, and Wing all in one workspace",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "deluxe.png",
-  "name": "doctorwhen/kasm:ubuntu-deluxe",
-  "friendly_name": "Everything",
+  "name": "doctorwhen/kasm:deluxe",
+  "friendly_name": "Deluxe Desktop",
   "run_config": {
     "hostname": "kasm-deluxe"
   },
