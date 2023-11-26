@@ -1,7 +1,7 @@
 {
   "description": "Customized Ubuntu 22.04 (Jammy) desktop with extras",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "ubuntu.png",
+  "image_src": "ubuntu-jammy.png",
   "name": "doctorwhen/kasm:ubuntu-jammy",
   "friendly_name": "Ubuntu Jammy",
   "cores": 2,
