@@ -1,0 +1,29 @@
+{
+  "description": "Customized Ubuntu 22.04 desktop with LM Studio",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "lmstudio.png",
+  "name": "doctorwhen/kasm:lmstudio",
+  "friendly_name": "LM Studio",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": { "hostname": "kasm-lmstudio", "privileged": true },
+  "exec_config": {
+     "first_launch": {
+       "user":"root",
+       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+     }
+  },
+  "categories": [
+    "Productivity",
+    "Desktop"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 8170
+}
