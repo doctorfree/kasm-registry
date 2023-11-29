@@ -8,7 +8,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-appimage" },
+  "run_config": { "hostname": "kasm-appimage", "privileged": true },
   "exec_config": {
      "first_launch": {
        "user":"root",
@@ -25,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 9900
+  "uncompressed_size_mb": 10100
 }
