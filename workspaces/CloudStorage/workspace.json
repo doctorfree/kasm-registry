@@ -1,14 +1,14 @@
 {
-  "description": "Customized Ubuntu 22.04 desktop with LM Studio",
+  "description": "Utilizes rclone, a command-line program to manage files on cloud storage",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "lmstudio.png",
-  "name": "doctorwhen/kasm:lmstudio",
-  "friendly_name": "LM Studio",
+  "image_src": "rclone.png",
+  "name": "doctorwhen/kasm:rclone",
+  "friendly_name": "Cloud Storage",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-lmstudio", "privileged": true },
+  "run_config": { "hostname": "kasm-rclone", "ports": { "3000/tcp": 3000 } },
   "exec_config": {
      "first_launch": {
        "user":"root",
@@ -25,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 10200
+  "uncompressed_size_mb": 9140
 }
