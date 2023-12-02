@@ -8,7 +8,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-rclone", "ports": { "3000/tcp": 3000 } },
+  "run_config": { "hostname": "kasm-rclone" },
   "exec_config": {
      "first_launch": {
        "user":"root",
