@@ -27,5 +27,5 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "uncompressed_size_mb": 9040
+  "uncompressed_size_mb": 8860
 }
