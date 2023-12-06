@@ -27,11 +27,17 @@ generated from [Doctorfree Open Source Projects](https://github.com/doctorfree).
 
 Currently available workspaces in this registry include:
 
+* `AppImage`: Customized Ubuntu 22.04 desktop with [AppImage Launcher](https://github.com/TheAssassin/AppImageLauncher)
 * [Asciiville](https://github.com/doctorfree/Asciiville#readme): Ascii art, utilities, games, more
+* `CloudStorage`: Utilizes [rclone](https://github.com/rclone/rclone), a command-line program to manage files on cloud storage
+* `Deluxe`: Asciiville, Neovim, Spiderfoot, Wing and more all in one workspace
+* [LM Studio](https://github.com/lmstudio-ai): Customized Ubuntu 22.04 desktop with `LM Studio`
 * [Neovim](https://github.com/doctorfree/nvim-lazyman#readme): Neovim, neovide, lazyman, much more
 * [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter): Jupyter notebooks
+* [Spiderfoot](https://github.com/smicallef/spiderfoot): A reconnaissance tool that automatically queries public data sources to gather intelligence
 * [Ubuntu desktops](https://en.wikipedia.org/wiki/Ubuntu): Customized Ubuntu Focal and Jammy desktops
 * [Wing cloud programming language](https://www.winglang.io): Wing programming language, examples, and editors
+* `WingPlus`: The Wing workspace with the Neovim hyper-extensible text editor
 * More to come ...
 
 ### Workspace features
@@ -40,7 +46,11 @@ Record Technologies workspaces all include customized desktops with several
 additional productivity and development packages preconfigured for ease of use.
 For example, the Wing workspaces include Visual Studio Code with the Wing
 extension; the Neovim workspaces include Neovide and Lazyman - the Neovim
-Configuration Manager.
+Configuration Manager, several workspaces include the
+[Ranger File Manager](https://github.com/ranger/ranger)
+with customized launch configurations and the
+[Btop++ system monitor](https://github.com/aristocratos/btop)
+with customized configuration and theme.
 
 In most Record Technologies workspaces the
 [Kitty terminal emulator](https://sw.kovidgoyal.net/kitty)
