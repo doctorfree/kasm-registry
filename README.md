@@ -33,6 +33,7 @@ Currently available workspaces in this registry include:
 * `Deluxe`: Asciiville, Neovim, Spiderfoot, Wing and more all in one workspace
 * [LM Studio](https://github.com/lmstudio-ai): Customized Ubuntu 22.04 desktop with `LM Studio`
 * [Neovim](https://github.com/doctorfree/nvim-lazyman#readme): Neovim, neovide, lazyman, much more
+* [Open-Source Intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence): Reconnaissance tool, forensics, link analyzer, ...
 * [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter): Jupyter notebooks
 * [Spiderfoot](https://github.com/smicallef/spiderfoot): A reconnaissance tool that automatically queries public data sources to gather intelligence
 * [Ubuntu desktops](https://en.wikipedia.org/wiki/Ubuntu): Customized Ubuntu Focal and Jammy desktops

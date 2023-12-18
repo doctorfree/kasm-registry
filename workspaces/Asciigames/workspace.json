@@ -1,14 +1,14 @@
 {
-  "description": "Customized Ubuntu 22.04 (Jammy) desktop with extras",
+  "description": "Collection of Ascii Games",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "ubuntu-jammy.png",
-  "name": "doctorwhen/kasm:ubuntu-jammy",
-  "friendly_name": "Ubuntu Jammy",
+  "image_src": "games.png",
+  "name": "doctorwhen/kasm:asciigames",
+  "friendly_name": "Ascii Games",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-jammy" },
+  "run_config": { "hostname": "kasm-games" },
   "exec_config": {
      "first_launch": {
        "user":"root",
@@ -16,6 +16,7 @@
      }
   },
   "categories": [
+    "Games",
     "Desktop",
     "Productivity"
   ],
@@ -25,5 +26,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 10000
+  "uncompressed_size_mb": 10300
 }
