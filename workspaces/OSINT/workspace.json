@@ -1,14 +1,14 @@
 {
-  "description": "Neovim is a hyper-extensible text editor derived from Vim",
+  "description": "Open Source Intelligence reconnaissance tool, forensics and link analyzer",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "neovim.png",
-  "name": "doctorwhen/kasm:neovim",
-  "friendly_name": "Neovim",
+  "image_src": "osint.png",
+  "name": "doctorwhen/kasm:osint",
+  "friendly_name": "Open-Source Intelligence",
   "cores": 2,
-  "memory": 5536,
+  "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-neovim" },
+  "run_config": { "hostname": "kasm-osint", "ports": { "5001/tcp": 5001 } },
   "exec_config": {
      "first_launch": {
        "user":"root",
@@ -16,9 +16,8 @@
      }
   },
   "categories": [
-    "Development",
-    "Desktop",
-    "Productivity"
+    "Security",
+    "Browser"
   ],
   "architecture": [
     "amd64"
@@ -26,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 4660
+  "uncompressed_size_mb": 3900
 }
