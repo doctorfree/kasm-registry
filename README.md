@@ -29,6 +29,7 @@ Currently available workspaces in this registry include:
 
 * `AppImage`: Customized Ubuntu 22.04 desktop with [AppImage Launcher](https://github.com/TheAssassin/AppImageLauncher)
 * [Asciiville](https://github.com/doctorfree/Asciiville#readme): Ascii art, utilities, games, more
+* [Ascii Games](https://github.com/doctorfree/asciigames#readme): Collection of Ascii games
 * `CloudStorage`: Utilizes [rclone](https://github.com/rclone/rclone), a command-line program to manage files on cloud storage
 * `Deluxe`: Asciiville, Neovim, Spiderfoot, Wing and more all in one workspace
 * [LM Studio](https://github.com/lmstudio-ai): Customized Ubuntu 22.04 desktop with `LM Studio`
