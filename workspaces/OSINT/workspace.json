@@ -3,7 +3,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "osint.png",
   "name": "doctorwhen/kasm:osint",
-  "friendly_name": "Open-Source Intelligence",
+  "friendly_name": "OS Intelligence",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
