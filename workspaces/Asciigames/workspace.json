@@ -5,7 +5,7 @@
   "name": "doctorwhen/kasm:asciigames",
   "friendly_name": "Ascii Games",
   "cores": 2,
-  "memory": 2768,
+  "memory": 4096,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "run_config": { "hostname": "kasm-games" },

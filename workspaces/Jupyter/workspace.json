@@ -5,7 +5,7 @@
   "name": "doctorwhen/kasm:jupyter",
   "friendly_name": "Jupyter",
   "cores": 2,
-  "memory": 2768,
+  "memory": 4096,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "run_config": { "hostname": "kasm-jupyter" },

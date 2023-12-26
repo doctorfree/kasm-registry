@@ -5,7 +5,7 @@
   "name": "doctorwhen/kasm:rclone",
   "friendly_name": "Cloud Storage",
   "cores": 2,
-  "memory": 2768,
+  "memory": 4096,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "run_config": { "hostname": "kasm-rclone", "privileged": true },
