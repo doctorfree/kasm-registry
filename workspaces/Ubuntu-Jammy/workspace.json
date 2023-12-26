@@ -3,7 +3,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "ubuntu-jammy.png",
   "name": "doctorwhen/kasm:ubuntu-jammy",
-  "friendly_name": "Ubuntu Jammy",
+  "friendly_name": "Ubuntu 22.04",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
@@ -25,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 9970
+  "uncompressed_size_mb": 9830
 }
