@@ -32,7 +32,7 @@ Currently available workspaces in this registry include:
 * [Ascii Games](https://github.com/doctorfree/asciigames#readme): Collection of Ascii games
 * `CloudStorage`: Utilizes [rclone](https://github.com/rclone/rclone), a command-line program to manage files on cloud storage
 * `Deluxe`: Asciiville, Neovim, Spiderfoot, Wing and more all in one workspace
-* [LM Studio](https://github.com/lmstudio-ai): Customized Ubuntu 22.04 desktop with `LM Studio`
+* [LM Studio](https://github.com/lmstudio-ai): Discover, download, and run LLM's with `LM Studio`
 * [Neovim](https://github.com/doctorfree/nvim-lazyman#readme): Neovim, neovide, lazyman, much more
 * [Open-Source Intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence): Reconnaissance tool, forensics, link analyzer, ...
 * [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter): Jupyter notebooks

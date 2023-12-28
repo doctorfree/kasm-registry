@@ -3,7 +3,7 @@
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "appimage.png",
   "name": "doctorwhen/kasm:appimage",
-  "friendly_name": "AppImage Launcher",
+  "friendly_name": "AppImage Launch",
   "cores": 2,
   "memory": 4096,
   "gpu_count": 0,
@@ -25,5 +25,5 @@
   "compatibility": [
     "1.14.x"
   ],
-  "uncompressed_size_mb": 10100
+  "uncompressed_size_mb": 10500
 }
