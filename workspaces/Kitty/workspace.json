@@ -15,7 +15,10 @@
        "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
      }
   },
-  "categories": [],
+  "categories": [
+    "Productivity",
+    "Desktop"
+  ],
   "architecture": [
     "amd64"
   ],
