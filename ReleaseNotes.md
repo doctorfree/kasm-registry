@@ -26,12 +26,13 @@ Currently available workspaces in this registry include:
 * [Asciiville](https://github.com/doctorfree/Asciiville#readme): Ascii art, utilities, games, more
 * `CloudStorage`: Utilizes [rclone](https://github.com/rclone/rclone), a command-line program to manage files on cloud storage
 * `Deluxe`: Asciiville, Neovim, Spiderfoot, Wing and more all in one workspace
+* [Kitty](https://sw.kovidgoyal.net/kitty): Terminal session with customized Kitty terminal emulator
 * [LM Studio](https://github.com/lmstudio-ai): Customized Ubuntu 22.04 desktop with `LM Studio`
 * [Neovim](https://github.com/doctorfree/nvim-lazyman#readme): Neovim, neovide, lazyman, much more
-* [Open-Source Intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence): Reconnaissance tool, forensics, link analyzer, ...
+* [Open-Source Intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence): Reconnaissance tools to query public data sources and gather intelligence
 * [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter): Jupyter notebooks
-* [Spiderfoot](https://github.com/smicallef/spiderfoot): A reconnaissance tool that automatically queries public data sources to gather intelligence
 * [Ubuntu desktops](https://en.wikipedia.org/wiki/Ubuntu): Customized Ubuntu Focal and Jammy desktops
+* [Visual Studio Code](https://code.visualstudio.com): Code editor with support for development operations
 * [Wing cloud programming language](https://www.winglang.io): Wing programming language, examples, and editors
 * `WingPlus`: The Wing workspace with the Neovim hyper-extensible text editor
 * More to come ...
