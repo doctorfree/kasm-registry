@@ -22,6 +22,7 @@
     "amd64"
   ],
   "compatibility": [
+    "1.15.x",
     "1.14.x"
   ],
   "cores": 2,
