@@ -1,0 +1,28 @@
+{
+  "description": "Kasm workspace image to simplify using VPNs by specifying the configuration details in a form.  OpenVPN, Wireguard, and Tailscale are supported.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "vpn.png",
+  "name": "doctorwhen/kasm:vpn",
+  "friendly_name": "VPN",
+  "cores": 2,
+  "memory": 4096,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": { "hostname": "kasm-vpn" },
+  "exec_config": {
+     "first_launch": {
+       "user":"root",
+       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+     }
+  },
+  "categories": [
+    "Security"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 11600
+}
