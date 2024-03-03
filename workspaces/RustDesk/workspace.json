@@ -1,0 +1,30 @@
+{
+  "description": "An open-source remote desktop and alternative to TeamViewer",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "rustdesk.png",
+  "name": "doctorwhen/kasm:rustdesk",
+  "friendly_name": "RustDesk",
+  "cores": 2,
+  "memory": 4096,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": { "hostname": "kasm-rustdesk" },
+  "exec_config": {
+     "first_launch": {
+       "user":"root",
+       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+     }
+  },
+  "categories": [
+    "Desktop",
+    "Productivity"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 13000
+}
