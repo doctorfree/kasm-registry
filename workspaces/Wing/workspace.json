@@ -2,18 +2,22 @@
   "description": "Wing is a programming language for the cloud",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "wing.png",
-  "name": "doctorwhen/kasm:wing",
   "friendly_name": "Wing",
   "cores": 2,
   "memory": 4096,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-wing", "ports": { "3000/tcp": 3000 } },
+  "run_config": {
+    "hostname": "kasm-wing",
+    "ports": {
+      "3000/tcp": 3000
+    }
+  },
   "exec_config": {
-     "first_launch": {
-       "user":"root",
-       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
-     }
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+    }
   },
   "categories": [
     "Development",
@@ -24,10 +28,16 @@
     "amd64"
   ],
   "compatibility": [
-    "1.17.x",
-    "1.16.x",
-    "1.15.x",
-    "1.14.x"
-  ],
-  "uncompressed_size_mb": 12700
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:wing",
+      "uncompressed_size_mb": 12700,
+      "available_tags": [
+        "1.17.0",
+        "1.16.0",
+        "1.15.0",
+        "1.14.0"
+      ]
+    }
+  ]
 }

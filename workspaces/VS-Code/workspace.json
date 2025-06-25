@@ -2,18 +2,19 @@
   "description": "Visual Studio Code source-code editor",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "vscode.png",
-  "name": "doctorwhen/kasm:vscode",
   "friendly_name": "Visual Studio Code",
   "cores": 2,
   "memory": 4096,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "run_config": { "hostname": "kasm-vscode" },
+  "run_config": {
+    "hostname": "kasm-vscode"
+  },
   "exec_config": {
-     "first_launch": {
-       "user":"root",
-       "cmd":"bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
-     }
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+    }
   },
   "categories": [
     "Development",
@@ -24,10 +25,16 @@
     "amd64"
   ],
   "compatibility": [
-    "1.17.x",
-    "1.16.x",
-    "1.15.x",
-    "1.14.x"
-  ],
-  "uncompressed_size_mb": 12900
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:vscode",
+      "uncompressed_size_mb": 12900,
+      "available_tags": [
+        "1.17.0",
+        "1.16.0",
+        "1.15.0",
+        "1.14.0"
+      ]
+    }
+  ]
 }
