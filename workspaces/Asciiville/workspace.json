@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "doctorwhen/kasm:asciiville",
       "uncompressed_size_mb": 12400
+    },
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:asciiville",
+      "uncompressed_size_mb": 12400
     }
   ]
 }

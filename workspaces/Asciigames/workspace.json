@@ -29,6 +29,11 @@
       "version": "1.16.x",
       "image": "doctorwhen/kasm:asciigames",
       "uncompressed_size_mb": 12700
+    },
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:asciigames",
+      "uncompressed_size_mb": 12700
     }
   ]
 }

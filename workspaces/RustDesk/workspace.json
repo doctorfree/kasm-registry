@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "doctorwhen/kasm:rustdesk",
       "uncompressed_size_mb": 13000
+    },
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:rustdesk",
+      "uncompressed_size_mb": 13000
     }
   ]
 }

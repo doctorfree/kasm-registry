@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "doctorwhen/kasm:jupyter",
       "uncompressed_size_mb": 20300
+    },
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:jupyter",
+      "uncompressed_size_mb": 20300
     }
   ]
 }

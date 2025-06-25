@@ -32,6 +32,11 @@
       "version": "1.16.x",
       "image": "doctorwhen/kasm:wing-neovim",
       "uncompressed_size_mb": 14800
+    },
+    {
+      "version": "1.17.x",
+      "image": "doctorwhen/kasm:wing-neovim",
+      "uncompressed_size_mb": 14800
     }
   ]
 }
