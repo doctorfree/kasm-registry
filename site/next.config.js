@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'Record Technologies',
     description: 'An unofficial registry for Kasm workspaces.',
-    icon: 'https://doctorfree.github.io/kasm-registry/1.0/sp2.png',
+    icon: 'https://doctorfree.github.io/kasm-registry/1.1/sp2.png',
     listUrl: 'https://doctorfree.github.io/kasm-registry/',
     contactUrl: 'https://github.com/doctorfree',
   },

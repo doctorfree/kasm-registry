@@ -29,15 +29,9 @@
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
+      "version": "1.16.x",
       "image": "doctorwhen/kasm:wing",
-      "uncompressed_size_mb": 12700,
-      "available_tags": [
-        "1.17.0",
-        "1.16.0",
-        "1.15.0",
-        "1.14.0"
-      ]
+      "uncompressed_size_mb": 12700
     }
   ]
 }
