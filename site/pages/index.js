@@ -18,7 +18,7 @@ export default function Home({ searchText }) {
         workspaces.workspaces.forEach((workspace) => {
           if(workspace.compatibility) {
             workspace.compatibility.forEach((v) => {
-              const value = parseFloat(v)
+              const value = parseFloat(v.version)
               if(wsversions.indexOf(value) === -1) {
                 wsversions.push(value)
               }
@@ -43,7 +43,7 @@ export default function Home({ searchText }) {
   }
 
   let filteredworkspaces = workspaces && workspaces.workspaces && workspaces.workspaces.length > 0 ? [...workspaces.workspaces] : [];
-  filteredworkspaces = filteredworkspaces.filter((v) => v.compatibility.some((el) => el === version + '.x'))
+  filteredworkspaces = filteredworkspaces.filter((v) => v.compatibility.some((el) => el.version === version + '.x'))
   const lowerSearch = searchText && searchText.toLowerCase();
   if (searchText && searchText !== "") {
     filteredworkspaces = filteredworkspaces.filter((i) => {
@@ -71,7 +71,7 @@ export default function Home({ searchText }) {
         <h1 className='flex flex-wrap-reverse uppercase tracking-widest justify-center mb-10 gap-5'>
         <span className='flex items-center text-lg bg-slate-100/90 rounded overflow-hidden shadow'>
             <span className='flex px-3 text-xs opacity-100'>Workspaces</span>
-            <span className='text-white p-3 py-1 flex bg-[#2980b9]'>{workspaces && workspaces.workspacecount}</span>
+            <span className='text-white p-3 py-1 flex bg-[#2980b9]'>{filteredworkspaces && filteredworkspaces.length}</span>
           </span>
           <span className='flex items-center text-lg bg-slate-100/90 rounded overflow-hidden shadow'>
             <span className='flex px-3 text-xs opacity-100'>Kasm Version</span>

@@ -10,7 +10,7 @@ import allworkspaces from '../../../public/list.json'
 export async function getStaticPaths() {
   let paths = allworkspaces.workspaces.map(workspace => ({
     params: {
-      workspace: [btoa(workspace.name)]
+      workspace: [btoa(workspace.friendly_name)]
     }
   }))
   paths.push({
@@ -47,7 +47,6 @@ export default function New({ workspace }) {
     friendly_name: null,
     image_src: null,
     description: null,
-    name: null,
     cores: 2,
     memory: 2768,
     gpu_count: 0,
@@ -75,7 +74,7 @@ export default function New({ workspace }) {
       setCombined(defaultState)
     }
     else if (workspace && workspace[0]) {
-      const workspaceDetails = allworkspaces.workspaces.find(el => el.name === atob(workspace[0]))
+      const workspaceDetails = allworkspaces.workspaces.find(el => el.friendly_name === atob(workspace[0]))
       delete workspaceDetails['sha']
       description.current.value = workspaceDetails.description
       name.current.value = workspaceDetails.name
@@ -296,7 +295,7 @@ export default function New({ workspace }) {
         <div className='w-full lg:w-1/2 p-16 bg-slate-100'>
           <Workspace workspace={combined} icon={icon} inlineImage={inlineImage} />
           <pre className='my-8 overflow-y-auto text-xs'>{JSON.stringify(displayWorkspace(), null, 2)}</pre>
-          <button onClick={downloadZip} className='p-4 relative z-10 px-5 bg-cyan-700 border-t border-white/20 border-solid hover:bg-slate-900 transition m-2 rounded items-center text-white/70 flex cursor-pointer'>Download</button>
+          <button onClick={downloadZip} className='p-4 relative z-10 px-5 bg-[#2980b9] border-t border-white/20 border-solid hover:bg-slate-900 transition m-2 rounded items-center text-white/70 flex cursor-pointer'>Download</button>
         </div>
       </div>
     </div>
